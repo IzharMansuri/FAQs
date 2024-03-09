@@ -1,0 +1,43 @@
+body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.back{
+    height: 50vh;
+    background-image: url('./assets/images/background-pattern-desktop.svg');
+}
+.back2{
+    height: 70vh;
+    background-color: #F9EEFF;
+}
+.box{
+    width: 800px;
+    background-color: white;
+    border-radius: 10px;
+    left: 20%;
+    top: 15%;
+    box-shadow: 1px 1px 8px black;
+}
+/* .faq .answers.showtext{
+    display: block;
+} */
+.hide-text{
+    display: none;
+}
+.transfer{
+    transform: rotate(180deg);
+}
+h4{
+    font-size: 24px !important;
+}
+@media only screen and (max-width: 400px){
+    .box{
+        width: 250px;
+        left: 10%;
+        top: 20%;
+    }
+    h4{
+        font-size: 16px !important;
+    }
+}
